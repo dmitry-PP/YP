@@ -31,7 +31,7 @@ namespace WpfApp2
         private void Reload()
         {
             Lib.ItemsSource = library.Books.ToList();
-            tb.Text = library.Books.ToString();
+            tb.Text = "Books";
         }
     }
 }
